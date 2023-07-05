@@ -4,21 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="spaceman.css">
-    <script defer src="spaceman.js"></script>
+    <script src="./spaceman.js" defer></script>
     <title>Spaceman</title>
 </head>
 <body>
-    <div>
-        <button id="Start Game">Start Game</button>
+    <h1>Spaceman</h1>
+    <h3>Guess the hidden word to become a Spaceman!</h3>
+    <h2>NBA Team Edition</h2> <br>
+    <h1 class="win"></h1>
+
+    <div id="game-board">
+        <button id="start-game" type="button">Start Game</button>
     </div>
+    <br>
     <div>
-        <button id="Reset Game">Reset Game</button>
+        <button id="quit-game" type="button" onClick="window.location.reload()">
+            Quit Game</button> <br> <br>
     </div>
 
-    <h1>Spaceman!!!</h1>
-        <h2>NBA Team Edition</h2>
-            <h3>Guess the mystery word</h3>
-            <br>
 
 
     <section id="letters">
@@ -48,11 +51,13 @@
         <button type="button">X</button>
         <button type="button">Y</button>
         <button type="button">Z</button>
-    </section> 
-    <div id='message-board'></div>
-        <div id='guess count'>0</div>
-            <div id='spaceman'>This is the spaceman</div>
-                <div class='lettersContainer'></div>
+    </section>
+
+    <div id="message-board"></div>
+    <div id="counter">0</div>
+    <div id="spaceman">This is the spaceman</div>
+    <div class="lettersContainer"></div>
+
 
 
     

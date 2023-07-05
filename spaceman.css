@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color:aqua;
+    background-color:lightgrey;
 }
 
 h1 {
@@ -28,6 +28,6 @@ section {
 
 }
 
-button {
-    
+div {
+    text-align:center;
 }
