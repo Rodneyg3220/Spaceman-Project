@@ -1,7 +1,8 @@
-const wordBank = ['ATLANTA HAWKS', 'BOSTON CELTICS', 'BROOKLYN NETS', 'CHARLOTTE HORNETS', 'CHICAGO BULLS', 'Cleveland Cavaliers', 'Dallas Mavericks', 'Denver Nuggets', 
-'Detroit Pistons', 'Golden State Warriors', 'Houston Rockets', 'Indiana Pacers', 'Los Angeles Clippers', 'Los Angeles Lakers', 'Memphis Grizzlies', 'Miami Heat',
-'Milwaukee Bucks', 'Minnesota Timberwolves', 'New Orleans Pelicans', 'New York Knicks','Oklahoma City Thunder','Orlando Magic','Phoenix Suns',
-'Portland Trail Blazers', 'Sacramento Kings', 'San Antonio Spurs', 'Toronto Raptors', 'Utah Jazz','Washington Wizards'];
+const wordBank = ['ATLANTA HAWKS', 'BOSTON CELTICS', 'BROOKLYN NETS', 'CHARLOTTE HORNETS', 'CHICAGO BULLS', 'CLEVELAND CAVALIERS', 'DALLAS MAVERICKS', 'DENVER NUGGETS', 
+'DETROIT PISTONS', 'GOLDEN STATE WARRIORS', 'HOUSTON ROCKETS', 'INDIANA PACERS', 'LOS ANGELES CLIPPERS', 'LOS ANGELES LAKERS', 'MEMPHIS GRIZZLIES', 'MIAMI HEAT',
+'MILWAUKEE BUCKS', 'MINNESOTA TIMBERWOLVES', 'NEW ORLEANS PELICANS', 'NEW YORK KNICKS','OKLAHOMA CITY THUNDER','ORLANDO MAGIC','PHOENIX SUNS',
+'PORTLAND TRAIL BLAZERS', 'SACRAMENTO KINGS', 'SAN ANTONIO SPURS', 'TORONTO RAPTORS', 'UTAH JAZZ','WASHINGTON WIZARDS'
+];
 //Const Variables
 const word = wordBank[Math.floor(Math.random() * wordBank.length)];
 const startGame = document.querySelector("#start-game");
@@ -30,7 +31,7 @@ let correctTeam;
 // counter for incorrect letter choices
 let counter = 0;
 
-//Function used to generate new word a random.
+//Function used to generate new word at random.
 function newRandomWord() {
     randomWord = wordBank[Math.floor(Math.random() * wordBank.length)];
     console.log("thisIsTheRandomWord =>", randomWord);
