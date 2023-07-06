@@ -53,6 +53,7 @@ JS Refactor
 5/a - conditional loop
 6 - create restart button in html doc
 6/a create if statement for win/lose logic to restart game
+
 ``
 Next Steps:
 ``
