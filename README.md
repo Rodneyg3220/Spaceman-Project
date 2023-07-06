@@ -21,7 +21,9 @@ https://rodneyg3220.github.io/Spaceman-Project/
 Technologies Used: 
 
 ``
-HTML, CSS, and Javascript
+*HTML 
+*CSS 
+*Javascript
 ``
 
 
