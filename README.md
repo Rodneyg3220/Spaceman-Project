@@ -1,10 +1,10 @@
 # Spaceman-Project
-``
+
 SPACEMAN
+
 ``
-
 Guess the hidden mystery word.
-
+``
 How To Play
 
 ``
@@ -16,16 +16,16 @@ https://rodneyg3220.github.io/Spaceman-Project/
 
 ![Screen Shot 2023-06-30 at 2 49 45 PM](https://github.com/Rodneyg3220/Spaceman-Project/assets/137218767/2e4d9ed2-44bc-4e57-80c1-c6edde405755)
 
-``
+
 Technologies Used: 
 ``
 HTML, CSS, and Javascript
-
-
 ``
+
+
 Pseudocode:
-``
 
+``
 Big Picture
 1. Create a start game button
 2. Creat a reset game
@@ -61,18 +61,14 @@ JS Refactor
 5/a - conditional loop
 6 - create restart button in html doc
 6/a create if statement for win/lose logic to restart game
-
 ``
+
 Next Steps:
 ``
 1. In the future I would like to implement a multiplayer option.
 2. I would like to give an option for the use to choose from multiple gameplay categories.
 3. I would like to implement a timer for choosing a letter
 4. I would like to incorporate
-
 ``
-Biggest Challenges
-``
-My biggest challeng 
 
 
