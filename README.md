@@ -8,10 +8,13 @@ Guess the hidden mystery word.
 Spaceman is a web game that is played by simply selecting a letter until the mystery word is revieled. You get to guess incorrectly five times, once you guess incorrectly five time you lose, but if you can guess the mystery word then you win.
 
 https://rodneyg3220.github.io/Spaceman-Project/
-
-Technologies Used: HTML, CSS, and Javascript
-
+``
+Technologies Used: 
+``
+HTML, CSS, and Javascript
+``
 Pseudocode:
+``
 
 Big Picture
 1. Create a start game button
@@ -48,8 +51,9 @@ JS Refactor
 5/a - conditional loop
 6 - create restart button in html doc
 6/a create if statement for win/lose logic to restart game
-
+``
 Next Steps:
+``
 1. In the future I would like to implement a multiplayer option.
 2. I would like to give an option for the use to choose from multiple gameplay categories.
 3. I would like to implement a timer for choosing a letter
