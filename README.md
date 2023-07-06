@@ -66,6 +66,7 @@ JS Refactor
 ``
 
 Next Steps:
+
 ``
 1. In the future I would like to implement a multiplayer option.
 2. I would like to give an option for the use to choose from multiple gameplay categories.
