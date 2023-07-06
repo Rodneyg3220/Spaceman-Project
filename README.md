@@ -1,5 +1,7 @@
 # Spaceman-Project
-
+```
+https://rodneyg3220.github.io/Spaceman-Project/
+```
 SPACEMAN
 
 ```
@@ -11,8 +13,6 @@ How To Play
 ```
 Spaceman is a web game that is played by simply selecting a letter until the mystery word is revieled. You get to guess incorrectly five times, once you guess incorrectly five time you lose, but if you can guess the mystery word then you win.
 ```
-
-https://rodneyg3220.github.io/Spaceman-Project/
 
 
 ![Screen Shot 2023-06-30 at 2 49 45 PM](https://github.com/Rodneyg3220/Spaceman-Project/assets/137218767/2e4d9ed2-44bc-4e57-80c1-c6edde405755)
