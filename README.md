@@ -25,10 +25,9 @@ HTML, CSS, and Javascript
 ``
 
 
-Pseudocode
+Pseudocode:
 
 ``
-
 Big Picture
 1. Create a start game button
 2. Creat a reset game
@@ -64,18 +63,15 @@ JS Refactor
 5/a - conditional loop
 6 - create restart button in html doc
 6/a create if statement for win/lose logic to restart game
-
 ``
 
 Next Steps:
 
 ``
-
 1. In the future I would like to implement a multiplayer option.
 2. I would like to give an option for the use to choose from multiple gameplay categories.
 3. I would like to implement a timer for choosing a letter
 4. I would like to incorporate
-
 ``
 
 
