@@ -19,12 +19,13 @@ https://rodneyg3220.github.io/Spaceman-Project/
 
 
 Technologies Used: 
+
 ``
 HTML, CSS, and Javascript
 ``
 
 
-Pseudocode:
+Pseudocode
 
 ``
 Big Picture
