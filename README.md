@@ -5,6 +5,7 @@ SPACEMAN
 ``
 Guess the hidden mystery word.
 ``
+
 How To Play
 
 ``
