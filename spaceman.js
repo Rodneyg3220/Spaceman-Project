@@ -7,7 +7,6 @@ const wordBank = ['ATLANTA HAWKS', 'BOSTON CELTICS', 'BROOKLYN NETS', 'CHARLOTTE
 const word = wordBank[Math.floor(Math.random() * wordBank.length)];
 const startGame = document.querySelector("#start-game");
 const messageBoard = document.querySelector("#message-board");
-const clearGame = document.querySelector("#clear-game");
 const quitGame = document.querySelector("#quit-game");
 const lettersButton = document.querySelectorAll("#letters > button");
 const wordSpaces = document.querySelector("#spaceman");

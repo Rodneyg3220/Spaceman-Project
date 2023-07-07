@@ -4,12 +4,16 @@
 
 body {
     background-color:lightgrey;
+    
 }
 
 h1 {
     display: flex;
     justify-content: center;
-    
+    color: aliceblue;
+    border-color: black;
+    font-size: 70px;
+
 }
 
 h2 {
@@ -25,9 +29,11 @@ h3 {
 section {
     text-align: center;
     margin: 0;
+    font-size: 65px;
 
 }
 
 div {
     text-align:center;
 }
+
