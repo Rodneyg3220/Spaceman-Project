@@ -13,6 +13,8 @@ Guess the hidden mystery word.
 Spaceman is a web game that is played by simply selecting a letter until the mystery word is revieled. You get to guess incorrectly five times, once you guess incorrectly five time you lose, but if you can guess the mystery word then you win.
 ```
 
+<img width="1580" alt="Screen Shot 2023-07-07 at 12 21 50 AM" src="https://github.com/Rodneyg3220/Spaceman-Project/assets/137218767/5171877d-fcc3-4a2c-8c55-ca895d80e634">
+
 
 ![Screen Shot 2023-06-30 at 2 49 45 PM](https://github.com/Rodneyg3220/Spaceman-Project/assets/137218767/2e4d9ed2-44bc-4e57-80c1-c6edde405755)
 
