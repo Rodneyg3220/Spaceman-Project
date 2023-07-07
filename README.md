@@ -68,12 +68,13 @@ JS Refactor
 6/a create if statement for win/lose logic to restart game
 ```
 
-### In the future I would like to:
+### Next Steps/In the future I would like to:
 
 ```
 *Implement a multiplayer option.
 *Give an option for the use to choose from multiple gameplay categories.
 *Implement a timer for choosing a letter
 ```
+
 
 
