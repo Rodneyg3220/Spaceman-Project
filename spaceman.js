@@ -48,7 +48,7 @@ for (let char of randomWord) {
 renderGuessTeam();
 }
 
-//display the guess word 
+//display the guess team and counter
 function renderGuessTeam() {
 wordSpaces.textContent = guessTeam;
 lossCounter.innerHTML = counter;
