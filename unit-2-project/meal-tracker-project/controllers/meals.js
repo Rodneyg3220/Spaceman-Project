@@ -7,16 +7,16 @@ module.exports = {
   show,
   newMeals,
   create,
-  addNutrition
+//   addNutrition
 };
 
 async function index(req, res) {
-  const meals = await meals.find({});
+  const meals = await Meals.find({});
   res.render('meals/index', { title: 'All Meals', meals });
 }
 
 async function show(req, res) {
-  const meals = await meals.findById(req.params.id);
+  const meals = await Meals.findById(req.params.id);
   res.render('meals/show', { title: 'Meals Detail', meals, nutrition: await Nutrition.find ({meals: meals._id})});
 }
 
@@ -25,7 +25,7 @@ function newMeals(req, res) {
 }
 
 async function create(req, res) {
-  req.body.firstTimeTrying = !!req.body.firtsTimeTrying;
+  req.body.haveIngredients = !!req.body.haveIngredients;
   try {
    console.log(req.body)
    await Meals.create(req.body);
@@ -38,11 +38,11 @@ async function create(req, res) {
   }
 }
 
-function addNutrition(req, res, next) {
-    Meals.findById(req.params.id, function(err, meals) {
-      meals.destinations.push(req.body);
-      meals.save(function(err, meals) {
-          res.redirect(`/meals/${meals._id}`);
-      });
-    });
-}
+// function addNutrition(req, res, next) {
+//     Meals.findById(req.params.id, function(err, meals) {
+//       meals.destinations.push(req.body);
+//       meals.save(function(err, meals) {
+//           res.redirect(`/meals/${meals._id}`);
+//       });
+//     });
+// }

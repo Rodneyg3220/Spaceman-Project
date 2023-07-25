@@ -16,3 +16,5 @@ const nutritionSchema = new Schema({
         type: Date
     }
 });
+
+module.exports = mongoose.model("Nutrition", nutritionSchema)

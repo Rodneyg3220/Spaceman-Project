@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 // You'll be creating this controller module next
-const mealsCtrl = require('../controller/meals');
+const mealsCtrl = require('../controllers/meals');
 
 router.get('/', mealsCtrl.index);
 
